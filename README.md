@@ -1,8 +1,8 @@
 # Image signature with RSA and SHA-256
 
 > Developed by **Anastasiia Plaskonis**  
-> as part of the *Information Security Fundamentals* course  
-> Ukrainian Catholic University (UCU), 2025
+> as part of the Information Security Fundamentals course  
+> Ukrainian Catholic University, 2025
 
 This repository contains a compact solution for securely signing PNG images using RSA (4096-bit) and SHA-256 hashing. The signature is written directly into the image's metadata — invisible to the viewer but verifiable by cryptographic means.
 
