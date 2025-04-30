@@ -90,8 +90,16 @@ python3 verify_image.py
 ```
 ## Project structure
 
-<pre><code>```text ├── image.png # Source image to be signed ├── image_with_signature.png # Resulting image with embedded signature ├── private_key.pem # RSA private key (keep secure) ├── public_key.pem # RSA public key (safe to share) ├── sign_image.py # Script for signing the image ├── verify_image.py # Script for verifying the image ├── requirements.txt # Python dependencies └── README.md # Project documentation ```</code></pre>
-
+```text
+├── image.png          # Source image to be signed
+├── image_with_signature.png    # Resulting image with embedded signature
+├── private_key.pem             # RSA private key (keep secure)
+├── public_key.pem              # RSA public key (safe to share)
+├── sign_image.py                     # Script for signing the image
+├── verify_image.py                   # Script for verifying the image
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
+```
 
 ## Technical highlights
 
