@@ -1,1 +1,2 @@
-# Plaskoni_Individual_task
+# Individual cybersecurity assignment
+Anastasiia Plaskonis
